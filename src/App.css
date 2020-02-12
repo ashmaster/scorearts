@@ -1,0 +1,210 @@
+.App {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: url("./pics/01back.jpg");
+  background-size:cover;
+  min-height: 100vh;
+  
+}
+
+.title{
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+
+.text{
+  font-size: 3.2vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.image{
+  height:16vh;
+  width: 16vh;
+  border-radius: 50%;
+}
+
+.cont{
+  
+  background:linear-gradient(to right, #f17544 0%,#6677d4 35%,#cb62eb 60%,#e93a3a 100%);
+  text-align: center;
+  padding:0.5vh;
+  padding-bottom: 0.5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 16vh;
+  margin-bottom: 5vh;
+  border-radius:10px;
+  border-color: #1d1d1d;
+}
+
+.cont1{
+
+  background:linear-gradient(to right, #85eeee 50%,#f5f0f1 100%);
+  text-align: center;
+  padding:0.5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 12.4vh;
+  margin-bottom: 5vh;
+  border-radius:10px;
+  border-color: #1d1d1d;
+}
+
+
+
+.team{
+  display: flex;
+  flex-direction: column;
+}
+
+.flagd {
+  display:flex;
+  flex-direction: column;
+  width:16vh;
+  height: 100%;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  color: rgb(245, 135, 10);
+  font-size: 1.8vh;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.flagd:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid rgb(245, 135, 10);
+  border-left: 8vh solid transparent;
+  border-right: 8vh solid transparent;
+}
+
+.flagr {
+  display:flex;
+  flex-direction: column;
+  width: 16vh;
+  height: 100%;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  color: rgb(11, 32, 219);
+  font-size: 1.6vh;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.flagr:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid rgb(11, 32, 219);
+  border-left: 8vh solid transparent;
+  border-right: 8vh solid transparent;
+}
+
+.flags {
+  display:flex;
+  flex-direction: column;
+  width: 16vh;
+  height: 100%;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  color: rgb(221, 16, 153);
+  font-size: 1.8vh;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.flags:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid rgb(221, 16, 153);
+  border-left: 8vh solid transparent;
+  border-right: 8vh solid transparent;
+}
+
+.flagt {
+  display:flex;
+  flex-direction: column;
+  width: 16vh;
+  height: 100%;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+  color: rgb(252, 12, 12);
+  font-size: 1.6vh;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.flagt:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid rgb(252, 12, 12);
+  border-left: 8vh solid transparent;
+  border-right: 8vh solid transparent;
+}
+
+.score{
+  font-size: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
